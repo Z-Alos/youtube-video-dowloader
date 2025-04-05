@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Automates the download process on the website",
   "permissions": ["scripting", "activeTab"],
-  "host_permissions": ["https://www.youtube.com/*"],
+  "host_permissions": ["https://www.youtube.com/*", "https://youtube-video-dowloader-5ezh.onrender.com/"],
   "background": {
     "service_worker": "background.js"
   },
