@@ -18,7 +18,8 @@ app.post("/api/download", async (req, res) => {
   try {
     const output = await ytdlp(url, {
       getUrl: true
-    });
+    }
+    );
 
     const directDownloadURL = output.trim();
     res.json({ directDownloadURL });
