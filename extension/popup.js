@@ -1,12 +1,3 @@
-document.getElementById("download").addEventListener("click", () => {
-    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-        chrome.scripting.executeScript({
-            target: { tabId: tabs[0].id },
-            files: ["content.js"]
-        });
-    });
-});
-
 async function handleInfo() {
     const url = await getActiveTabURL();
     let videoTitle;
