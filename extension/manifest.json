@@ -1,10 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Something For Deepu Mammu",
-  "version": "1.0",
-  "description": "Automates the download process on the website",
-  "permissions": ["scripting", "activeTab"],
-  "host_permissions": ["https://www.youtube.com/*", "https://youtube-video-dowloader-5ezh.onrender.com/"],
+  "name": "Yankit Extension",
+  "version": "1.0.0",
+  "description": "Yanks Youtube Video",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://www.youtube.com/*"],
   "background": {
     "service_worker": "background.js"
   },
