@@ -36,11 +36,11 @@ async function handleInfo(data, url) {
                 link.className = "link";
 
                 const quality = document.createElement("p");
-                quality.textContent = "📺 Quality: " + option.resolution + "p";
+                quality.textContent = "Quality: " + option.resolution + "p";
                 link.appendChild(quality);
 
                 const size = document.createElement("p");
-                size.textContent = "📂 Size: " + option.sizeMB;
+                size.textContent = "Size: " + option.sizeMB;
                 link.appendChild(size);
 
                 const button = document.createElement("button");
