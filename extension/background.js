@@ -1,6 +1,10 @@
 chrome.tabs.onUpdated.addListener(async (tabId, changeInfo, tab) => {
-    if (changeInfo.status === 'complete' && tab.active && tab.url.startsWith("https://www.youtube.com/watch")
-
+    if (
+        changeInfo.status === 'complete' &&
+        tab.active &&
+        tab.url &&
+        typeof tab.url === "string" &&
+        tab.url.includes("youtube.com/watch")
     ) {
         chrome.storage.local.remove("ytData");
 
