@@ -1,13 +1,13 @@
 # Yankit Extension 
 This is just a browser extension built for [Yankit](https://github.com/Z-Alos/yankit) to make youtube video downloading flow smooth like butter 🧈
-So make sure you have installed and running before using this extension else it won't wurk..
+So make sure you have installed and run the app before using this extension else it won't wurk..
 Once installed it will automatically start and run in background after boot...
 
 ---
 
 ## 🚀 Installation
 You can just clone the repo if you are familiar to git...Obviously!!!
-But if wanna go all vanillar, here you go: 
+But if wanna go all vanilla, here you go: 
 - #### Click on the Green Looking Code Button on the Page
 ![Screenshot](./screenshots/ext1.png)  
 - #### Click on the Download Zip Button
@@ -27,14 +27,14 @@ But if wanna go all vanillar, here you go:
 ![Screenshot](./screenshots/ext8.png)
 
 ### 🔗 Some things to keep in mind   
-    > ⚙️ Works seamlessly with and only **Chromium-based browsers** like:
-    - Google Chrome  
-    - Microsoft Edge  
-    - Brave  
-    *but if you know about browser extension you can modify the **manifest.json** and make it work on any browser 
+#### ⚙️ Works seamlessly with and only **Chromium-based browsers** like:
+- Google Chrome  
+- Microsoft Edge  
+- Brave  
+*but if you know about browser extension you can modify the **manifest.json** and make it work on any browser 
 
 Adios Amigos
-Powering off
+Powering off 
 ~Zalos
 
 
