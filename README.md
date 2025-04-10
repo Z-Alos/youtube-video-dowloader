@@ -19,6 +19,7 @@ But if wanna go all vanilla, here you go:
 ![Screenshot](./screenshots/ext4.png)
 - #### Click on Load Unpacked Button
 ![Screenshot](./screenshots/ext5.png)
+- #### Now select the extension directory that you extracted earlier
 - #### Click on the Extension Button present on top of the browser
 ![Screenshot](./screenshots/ext6.png)
 - #### Pin the extension for efficient use
